@@ -46,10 +46,10 @@ Write a function, which takes a non-negative integer (seconds) as input and retu
 
 ```
 def make_readable(seconds):
-    hh = seconds // 3600
-    mm = (seconds % 3600) // 60
-    ss = seconds % 60
-    return "{:02}:{:02}:{:02}".format(hh,mm,ss)
+    hh = seconds // 3600;
+    mm = (seconds % 3600) // 60;
+    ss = seconds % 60;
+    return "{:02}:{:02}:{:02}".format(hh,mm,ss);
 ```
 
 ---
